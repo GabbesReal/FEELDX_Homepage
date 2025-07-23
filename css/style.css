@@ -13,7 +13,6 @@ body {
   color: #fff;
   background-color: #40472D;
   line-height: 1.6;
-  overflow-x: hidden;
 }
 
 img {
@@ -23,17 +22,9 @@ img {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-@media (max-width: 768px) and (orientation: portrait) {
-  .container {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
 }
 
 .navbar {
@@ -93,7 +84,7 @@ img {
 }
 
 .navbar nav {
-  display: none;
+  display: flex;
   align-items: center;
 }
 
@@ -115,8 +106,7 @@ img {
 }
 
 .navbar nav.active {
-  display: flex;
-  width: 100%;
+  display: block;
 }
 
 @media (max-width: 992px) {
@@ -138,6 +128,7 @@ img {
     width: 100%;
     padding: 1rem;
     margin-top: 1rem;
+    z-index: 1000;
   }
 
   .navbar nav.active {

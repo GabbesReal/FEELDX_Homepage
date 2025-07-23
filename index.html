@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FEELDX</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    section[id] {
+      scroll-margin-top: 120px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container">
+      <svg width="164" height="42" viewBox="0 0 164 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M26.168 42H47.3525V37.0649H31.1528V25.9612H47.3525V21.0261H31.1528V9.92186H47.3525V4.98732H26.168V42Z"
+          fill="white"></path>
+        <path d="M0 42H4.9848V25.9612H21.1834V21.0261H4.9848V9.92186H21.1834V4.98732H0V42Z" fill="white"></path>
+        <path
+          d="M149.474 22.333L161.831 4.99901H155.729L146.423 18.0535L137.117 4.99901H131.015L143.372 22.333L129.361 41.9883H135.462L146.423 26.6124L157.384 41.9883H163.486L149.474 22.333Z"
+          fill="white"></path>
+        <path
+          d="M71.5475 21.0261H62.3047V25.9612H73.6128L83.107 16.5605V16.5577L83.6728 15.9982V-1.52588e-05H78.688V13.9574L71.5475 21.0261Z"
+          fill="white"></path>
+        <path
+          d="M83.6728 25.0972L78.688 30.0323V30.039L71.5913 37.0649H57.4125V9.92186H73.6129V4.98732H52.4277V42H73.6129V41.9572L73.6555 42L78.6936 37.0127H99.872V32.0776H83.6728V25.0972Z"
+          fill="white"></path>
+        <path
+          d="M116.285 4.99899V4.98732H103.826V32.0776H108.812V9.92241H116.285V9.93409C119.838 10.0532 123.204 11.534 125.674 14.0639C128.145 16.5938 129.525 19.9749 129.525 23.4937C129.525 27.0124 128.145 30.3935 125.674 32.9234C123.204 35.4533 119.838 36.9341 116.285 37.0532V37.0649H108.81V37.0104H103.826V41.9978H116.285V41.9861C121.146 41.8465 125.76 39.8368 129.149 36.3836C132.537 32.9304 134.432 28.3057 134.432 23.4914C134.432 18.6772 132.537 14.0525 129.149 10.5993C125.76 7.1461 121.146 5.13635 116.285 4.99676V4.99899Z"
+          fill="white"></path>
+      </svg>
+
+      <div class="burger" id="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <nav id="navbar-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content fade-in">
+      <h1>Crafting Digital Experiences</h1>
+      <p>Design. Develop. Deliver.</p>
+      <a href="#services" class="cta-button">Explore Services</a>
+    </div>
+  </section>
+
+  <section class="image-hover-grid section fade-in" id="services">
+    <div class="grid-gallery">
+      <div class="grid-item">
+        <img src="images/visual.png">
+        <div class="overlay">
+          <span class="label">Visualisation & Creative</span>
+          <span class="number">01</span>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="images/construct.jpg">
+        <div class="overlay">
+          <span class="label">Construction Lifecycle Management</span>
+          <span class="number">02</span>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="images/augmented.png">
+        <div class="overlay">
+          <span class="label">Virtual, Augmented & Mixed Reality Experiences</span>
+          <span class="number">03</span>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="images/analysis.png">
+        <div class="overlay">
+          <span class="label">Project Forensic Analysis (NOD, EOT, Claims)</span>
+          <span class="number">04</span>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="images/reporting.png">
+        <div class="overlay">
+          <span class="label">Program Management & Reporting</span>
+          <span class="number">05</span>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img src="images/industry.png">
+        <div class="overlay">
+          <span class="label">Training & Industry Expertise</span>
+          <span class="number">06</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="value-prop section fade-in" id="about">
+    <div class="container">
+      <h2>Why Choose FEELDX?</h2>
+      <p>We blend creative design with technical expertise to bring your digital vision to life. Our commitment to
+        quality and innovation sets us apart in the digital landscape.</p>
+    </div>
+  </section>
+
+  <section class="clients-section fade-in" id="clients">
+    <div class="container">
+      <h2 class="section-title">Our Clients</h2>
+      <div class="clients-slider">
+        <div class="slide-track">
+          <div class="slide"><img src="images/client1.jpg" alt="Bayswater Station" /></div>
+          <div class="slide"><img src="images/client2.jpg" alt="Sunbury Multideck Carpark" /></div>
+          <div class="slide"><img src="images/client3.jpg" alt="Monash Medical Centre Carpark" /></div>
+          <div class="slide"><img src="images/client4.jpg" alt="Our Lady of Sion College" /></div>
+
+          <div class="slide"><img src="images/client1.jpg" alt="Bayswater Station" /></div>
+          <div class="slide"><img src="images/client2.jpg" alt="Sunbury Multideck Carpark" /></div>
+          <div class="slide"><img src="images/client3.jpg" alt="Monash Medical Centre Carpark" /></div>
+          <div class="slide"><img src="images/client4.jpg" alt="Our Lady of Sion College" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="parallax-section fade-in">
+    <div class="parallax-content">
+      <h2>Driven by Design</h2>
+      <p>Elevating ideas through creative innovation.</p>
+    </div>
+  </section>
+
+  <section class="testimonials fade-in">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="testimonials-logos">
+        <img src="images/testimonials.jpg" alt="Client 1" onclick="openLightbox(this)">
+        <img src="images/testimonials2.jpg" alt="Client 2" onclick="openLightbox(this)">
+        <img src="images/testimonials3.jpg" alt="Client 3" onclick="openLightbox(this)">
+        <img src="images/testimonials4.jpg" alt="Client 4" onclick="openLightbox(this)">
+      </div>
+
+      <div id="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="" alt="Expanded Image">
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade-in" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="cta-button">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <a href="#contact" class="sticky-cta">Let’s Work Together</a>
+
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <img src="https://www.feeldx.com/front/images/feeldx-logo-tagline.svg" alt="FeelDX">
+        <div class="footer-social">
+          <a href="https://www.facebook.com/feeldx" target="_blank" aria-label="Facebook">
+            <svg width="24" height="24" fill="white" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22.675 0h-21.35C.6 0 0 .6 0 1.343v21.314C0 23.4.6 24 1.343 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.894-4.788 4.66-4.788 1.325 0 2.462.099 2.793.143v3.24l-1.917.001c-1.503 0-1.794.715-1.794 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.743 0 1.343-.6 1.343-1.343V1.343C24 .6 23.4 0 22.675 0z" />
+            </svg>
+          </a>
+
+          <a href="https://www.instagram.com/feeldx/" target="_blank" aria-label="Instagram">
+            <svg width="24" height="24" fill="white" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 1.206.056 1.84.248 2.27.415a4.602 4.602 0 011.675 1.087 4.6 4.6 0 011.087 1.675c.167.43.359 1.064.415 2.27.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.206-.248 1.84-.415 2.27a4.606 4.606 0 01-1.087 1.675 4.604 4.604 0 01-1.675 1.087c-.43.167-1.064.359-2.27.415-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.206-.056-1.84-.248-2.27-.415a4.604 4.604 0 01-1.675-1.087 4.602 4.602 0 01-1.087-1.675c-.167-.43-.359-1.064-.415-2.27C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.056-1.206.248-1.84.415-2.27a4.602 4.602 0 011.087-1.675 4.6 4.6 0 011.675-1.087c.43-.167 1.064-.359 2.27-.415C8.416 2.175 8.796 2.163 12 2.163zm0 1.837a8 8 0 100 16 8 8 0 000-16zm0 13.093a5.093 5.093 0 110-10.186 5.093 5.093 0 010 10.186zm6.406-11.845a1.44 1.44 0 100 2.88 1.44 1.44 0 000-2.88z" />
+            </svg>
+          </a>
+
+          <a href="https://www.linkedin.com/company/feeldx" target="_blank" aria-label="LinkedIn">
+            <svg width="24" height="24" fill="white" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.98 3.5C4.98 2.12 6.09 1 7.48 1s2.5 1.12 2.5 2.5S8.87 6 7.48 6 4.98 4.88 4.98 3.5zM.5 8.5h5.95v15H.5v-15zM9.62 8.5h5.7v2.06h.08c.8-1.5 2.75-3.1 5.66-3.1 6.06 0 7.18 3.99 7.18 9.18v10.86h-5.95v-9.63c0-2.3-.04-5.27-3.21-5.27-3.21 0-3.7 2.5-3.7 5.08v9.82H9.62v-15z" />
+            </svg>
+          </a>
+
+          <a href="https://www.youtube.com/channel/UC9kmR0LVnaZahPLxodFdesQ" target="_blank" aria-label="YouTube">
+            <svg width="24" height="24" fill="white" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M23.498 6.186a2.965 2.965 0 00-2.086-2.096C19.52 3.5 12 3.5 12 3.5s-7.52 0-9.412.59a2.965 2.965 0 00-2.086 2.096A30.59 30.59 0 000 12a30.59 30.59 0 00.502 5.814 2.965 2.965 0 002.086 2.096c1.892.59 9.412.59 9.412.59s7.52 0 9.412-.59a2.965 2.965 0 002.086-2.096A30.59 30.59 0 0024 12a30.59 30.59 0 00-.502-5.814zM9.75 15.523V8.477l6.25 3.523-6.25 3.523z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-middle">
+        <h4>For Quick Inquiries</h4>
+        <p>Email: contact@feeldx.com.au</p>
+        <p>Phone: 1800 333 539</p>
+        <p>Available from 8.30am to 6pm</p>
+      </div>
+
+      <div class="footer-right">
+        <ul class="footer-links">
+          <li><a href="https://www.feeldx.com/studio">STUDIO</a></li>
+          <li><a href="https://www.feeldx.com/project-control">PROJECT CONTROL</a></li>
+          <li><a href="https://www.feeldx.com/services">SERVICES</a></li>
+          <li><a href="https://www.feeldx.com/technology">TECHNOLOGY</a></li>
+          <li><a href="https://www.feeldx.com/our-work">OUR WORK</a></li>
+          <li><a href="https://www.feeldx.com/contact-us">CONTACT US</a></li>
+          <li><a href="https://www.feeldx.com/about-us">ABOUT US</a></li>
+          <li><a href="https://www.feeldx.com/news">NEWS</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Privacy policy | © 2025 FeelDX. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

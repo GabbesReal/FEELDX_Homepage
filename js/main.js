@@ -50,12 +50,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
       lightbox.appendChild(img);
       lightbox.style.display = "flex";
+
       document.body.style.overflow = "hidden";
+      document.body.style.marginRight = `${window.innerWidth - document.body.offsetWidth}px`;
     });
   });
 
   lightbox.addEventListener("click", () => {
     lightbox.style.display = "none";
     document.body.style.overflow = "auto";
+    document.body.style.marginRight = "0";
   });
 });

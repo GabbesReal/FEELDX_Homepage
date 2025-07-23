@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +13,7 @@ body {
   color: #fff;
   background-color: #40472D;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 img {
@@ -23,12 +23,19 @@ img {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Navbar */
+@media (max-width: 992px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -111,7 +118,6 @@ img {
   display: block;
 }
 
-/* Responsive Navbar */
 @media (max-width: 992px) {
   .navbar .container {
     flex-direction: column;
